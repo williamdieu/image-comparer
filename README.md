@@ -8,4 +8,5 @@ image-comparer compares all images capable of being read by OpenCV in the direct
 
 - Fix Delta E formula as I'm not confident it is accurate. Image of black and white reveal Delta E of 16 but intuitively I believe it should be 100.
 - Use template matching to determine whether image is a subset of another image, and so provide option of removing sub image.
-- Use resizing to determine whether an image is another image but resized (as if image super resolution was used)
+- Use resizing to determine whether an image is another image but resized (as if image super resolution was used).
+- Develop C++ alternative if there is a performance increase.
